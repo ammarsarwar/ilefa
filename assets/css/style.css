@@ -208,13 +208,13 @@ body.active {
 }
 
 .btn-outline:is(:hover, :focus) {
-  background-color: var(--blue-crayola);
+  background-color: var(--medium-sea-green);
   border-color: var(--blue-crayola);
 }
 
 .btn-primary {
   position: relative;
-  background-color: var(--blue-crayola);
+  background-color: var(--medium-sea-green);
   max-width: max-content;
   font-weight: var(--fw-700);
   padding: 13px 30px;
@@ -325,8 +325,18 @@ body.active {
 
 .section-item .title-wrapper ion-icon {
   flex-shrink: 0;
-  color: var(--blue-crayola);
+  color: var(--medium-sea-green);
   font-size: 24px;
+}
+
+.api-sec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--eerie-black-1);
+  padding-block: 15px;
+  z-index: 4;
 }
 
 /*-----------------------------------*\
@@ -439,7 +449,7 @@ body.active {
 }
 
 .navbar-link:is(:hover, :focus, .active) {
-  color: var(--blue-crayola);
+  color: var(--medium-sea-green);
 }
 
 /*-----------------------------------*\
@@ -800,8 +810,14 @@ body.active {
 }
 
 .app-banner {
-  position: relative;
-  margin-block-start: 60px;
+  /* position: relative;
+  margin-block-start: 60px; */
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 5px;
 }
 
 .app-banner .span {
@@ -1110,7 +1126,7 @@ address.footer-contact-link {
   }
 
   .navbar-link:is(:hover, :focus, .active) {
-    background-color: var(--blue-crayola);
+    background-color: var(--medium-sea-green);
     color: var(--white);
   }
 
