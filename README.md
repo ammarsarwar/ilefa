@@ -11,6 +11,4 @@ Ilefa is a fully responsive trading website, <br />Responsive for all devices, b
 
 <br />
 
-### Demo Screeshots
 
-![Cryptex Desktop Demo](./readme-images/desktop.png "Desktop Demo")
