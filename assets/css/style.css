@@ -278,6 +278,10 @@ body.active {
 .w-100 {
   width: 100%;
 }
+.founder {
+  /* width: 500px; */
+  width: 100%;
+}
 
 .badge {
   color: var(--white);
@@ -810,14 +814,8 @@ body.active {
 }
 
 .app-banner {
-  /* position: relative;
-  margin-block-start: 60px; */
-
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-
-  padding: 5px;
+  position: relative;
+  margin-block-start: 60px;
 }
 
 .app-banner .span {

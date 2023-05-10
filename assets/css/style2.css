@@ -7,3 +7,9 @@ video.center {
 .mysection {
   padding-left: 120px;
 }
+
+.founder-section-text {
+  /* font-size: var(--fs-5); */
+  font-size: 50px;
+  /* margin-block: 15px 35px; */
+}
